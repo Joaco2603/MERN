@@ -7,6 +7,7 @@ import Card from "./components/Card";
 import Login from "./components/Login";
 import Registrarse from "./components/registrarse";
 import CrearProducto from './components/CrearProducto'
+import Nosotros from './components/Nosotros.jsx'
 import Nofound from './components/Nofound'
 import 'boxicons'
 import { Header } from './components/Header';
@@ -56,6 +57,15 @@ function App() {
           }
         ></Route>
 
+
+        <Route
+          path="/nosotros"
+          element={
+            <>
+              <Nosotros/>
+            </>
+          }
+        ></Route>
 
         <Route
           path="/carrito"

@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Login.css'
+import logo from './img/bienvenida.jpg'
 //Redireccionar con react dom
 import {NavLink,useNavigate} from 'react-router-dom'
 
@@ -13,6 +14,10 @@ function Registrarse() {
   return (
     //Forms con los datos que se agregaran a la base de mongo
     <div className='Login'>
+        <h2>Bienvenido a AB</h2>
+        <div id="logo">
+        <img id="img_logo" src={logo} alt="" />
+        </div>
         <h3 className='titles_input' >Nombre:</h3>
         <input type="text" className='input_text' id='nombre'/>
         <h3 className='titles_input'>Email:</h3>

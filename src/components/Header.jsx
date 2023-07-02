@@ -55,6 +55,9 @@ export const Header = ({
           <NavLink to="/pagar" className="opt_menu">
             Pagar
           </NavLink>
+          <NavLink to="/nosotros" className="opt_menu">
+            Nosotros
+          </NavLink>
         </nav>
       </div>
 
